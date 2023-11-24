@@ -1,0 +1,66 @@
+.hotelapp__add_hotel{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.hotelapp_cont{
+    display: flex;
+    
+}
+
+.hotelapp_cont_img{
+    width: 40%;
+}
+
+.hotelapp_cont img{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.hotelapp_cont_form{
+    width: 60%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex div{
+    width: 49%;
+}
+form{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-left: 50px;
+
+}
+
+.hotelapp__add_hotel input, .hotelapp__add_hotel textarea{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid #dadada80;
+    margin-bottom: 20px;
+}
+
+.add_hotel_btn{
+    padding: 15px;
+    color: #fff;
+    background-color: #0066ff;
+    border: 2px solid #0066ff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.add_hotel_btn:hover{
+    background-color: #004bbd;
+}

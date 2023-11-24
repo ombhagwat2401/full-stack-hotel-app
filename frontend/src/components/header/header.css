@@ -1,0 +1,15 @@
+.hotelapp__header_component{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.hotelapp__header_component .logo{
+    margin-right: 50px;
+}
+
+.hotelapp__header_component p{
+    margin: 20px 10px;
+    cursor: pointer;
+}
+

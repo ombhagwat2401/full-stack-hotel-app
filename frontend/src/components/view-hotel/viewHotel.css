@@ -1,0 +1,56 @@
+.hotelapp__view_hotel{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.hotelapp_view_hotel_container{
+    display: flex;
+}
+
+.hotel_img{
+    width: 40%;
+}
+
+.hotel_details{
+    width: 60%;
+}
+
+.hotel_img img{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.hotel_details{
+    padding-left: 50px;
+}
+
+.hotel_actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel_actions button{
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #0066ff;
+    background-color: transparent;
+    color: #0066ff;
+    font-weight: bold;
+}
+
+.hotel_actions button:hover{
+    background-color:  #0066ff20;
+}
+
+
+.hotel_actions .del{
+    background-color: red;
+    color: #fff;
+    border: 2px solid red;
+}
+
+.hotel_actions .del:hover{
+    background-color: rgba(209, 0, 0);
+}
